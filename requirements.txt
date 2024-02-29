@@ -6,3 +6,5 @@ pandas
 scikit_learn
 tensorflow
 twilio.rest
+pillow
+os
