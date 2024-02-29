@@ -1,2 +1,0 @@
-# DermaCarcine
-Skin Cancer Detection
