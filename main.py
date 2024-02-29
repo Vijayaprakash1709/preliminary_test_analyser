@@ -3,7 +3,6 @@
 # Importing the necessary Python modules.
 import streamlit as st
 
-# Import necessary functions from web_functions
 from web_functions import load_data
 
 # Configure the app
