@@ -144,7 +144,7 @@ def app():
 
         elif class_names[np.argmax(predictions)] == 'Seborrheic Keratoses and other Benign Tumors':
             st.sidebar.error(string)
-            st.sidebar.warnign("Its a benign cancer")
+            st.sidebar.warning("Its a benign cancer")
             st.success("Eskata, a 40% hydrogen peroxide topical solution, is the first FDA-approved drug for treatment of seborrheic keratoses. Administration of the drug may be tedious and usually requires at least two office visits.")
 
         elif class_names[np.argmax(predictions)] == 'Tinea Ringworm Candidiasis and other Fungal Infections':
